@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 40px 0;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-image img {
+    width: 90%;
+    border-radius: 8px;
+}
+
+.about-text {
+    width: 280%;
+    padding-left: 20px;
+}
+
+h2, p {
+    color: #333;
+}
+
+strong {
+    font-weight: bold;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

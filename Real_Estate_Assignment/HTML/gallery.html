@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Carousel with Indicators</title>
+    <link rel="stylesheet" href="/CSS/gallery.css">
+</head>
+<body>
+<h2>Gallery</h2>
+<div class="carousel-container">
+    <div class="carousel-slides">
+        <div class="slide active">
+            <img src="/Image/realestate6.jpg" alt="Slide 1">
+        </div>
+        <div class="slide">
+            <img src="/Image/realestate2.jpg" alt="Slide 2">
+        </div>
+        <div class="slide">
+            <img src="/Image/realestate7.jpg" alt="Slide 3">
+        </div>
+        <div class="slide">
+            <img src="/Image/realestate11.jpg" alt="Slide 3">
+        </div>
+        <!-- Add more slides as needed -->
+    </div>
+
+    <div class="indicators-container">
+        <div class="indicator active" onclick="currentSlide(1)"></div>
+        <div class="indicator" onclick="currentSlide(2)"></div>
+        <div class="indicator" onclick="currentSlide(3)"></div>
+        <!-- Add more indicators as needed -->
+    </div>
+    <div class="text">
+        <p>Ready to make one of these exceptional properties your own? Contact us today to schedule a viewing or inquire about additional details. Our dedicated team is here to assist you in finding the perfect home that aligns with your dreams and aspirations. Let the journey to your new home begin!</p>
+    </div>
+</div>
+
+<script src="/Javascript/gallery.js"></script>
+</body>
+</html>

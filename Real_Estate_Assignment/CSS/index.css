@@ -1,0 +1,26 @@
+.main{
+    height: 800px;
+    margin: auto;
+}
+.heading{
+    color:;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: auto;
+}
+.banner{
+    height:35%;
+}
+.banner> img{
+    height: 100%;
+    width: 100%;
+
+}
+#menubar{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    background-color: rgb(172, 172, 172);
+}
+
+
